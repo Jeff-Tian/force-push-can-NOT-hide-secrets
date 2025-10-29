@@ -67,10 +67,12 @@ Even after force push, anyone with the commit SHA can access it:
 即使在强制推送后，任何知道提交 SHA 的人都可以访问它：
 
 ```bash
-# GitHub API example
+# Example: Accessing commit via GitHub API
 curl https://api.github.com/repos/{owner}/{repo}/commits/{old_commit_sha}
+```
 
-# Direct URL access
+```
+# Example: Direct URL access in browser
 https://github.com/{owner}/{repo}/commit/{old_commit_sha}
 ```
 
